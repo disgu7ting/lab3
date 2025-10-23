@@ -1,0 +1,46 @@
+@import 'variables';
+@import 'mixins';
+@import 'dark';
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+
+  .card {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 2px solid $main-color;
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+
+    img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      color: $main-color;
+      margin: 0.5rem 0;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: $text-color;
+    }
+
+    button {
+      @include button-style($main-color, white);
+      margin-top: 0.8rem;
+    }
+
+    @include mobile {
+      max-width: 90%;
+      padding: 0.5rem;
+    }
+  }
+}

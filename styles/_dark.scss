@@ -1,0 +1,13 @@
+.dark-theme {
+  background-color: $dark-background-color;
+  color: $dark-text-color;
+
+  .card {
+    border-color: $dark-main-color;
+    background: #2a2a2a;
+  }
+
+  button {
+    @include button-style($dark-main-color, $dark-text-color);
+  }
+}
