@@ -2,8 +2,9 @@
 
 ## Скриншоты
 
+<img width="703" height="514" alt="image" src="https://github.com/user-attachments/assets/d1d4efeb-f918-4318-9ac5-28d9e0e8869e" />
 
-
+<img width="731" height="526" alt="image" src="https://github.com/user-attachments/assets/2206bdc9-18cf-4eb9-b662-52f15dceb54d" />
 
 
 ## Ответы на вопросы
@@ -28,3 +29,4 @@ dark.scss — отдельные стили для тёмной темы.
 Пример SCSS с профилем разработчика;
 Как скомпилировать SASS в CSS;
 Пример тёмной темы;
+
